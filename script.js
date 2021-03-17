@@ -37,19 +37,3 @@ function playRound(playerSelection, computerSelection) {
              break;
         }
     }
-
-/* const playerSelection = prompt("What do you want to play?"); 
-const computerSelection = computerplay(); 
-console.log(playRound(playerSelection, computerSelection)); */
-
-function game() {
-   for (i = 0; i < 5; i++) {
-    computerplay();
-    const computerSelection = computerplay(); 
-    const playerSelection = prompt("What do you want to play?"); 
-    playRound(playerSelection, computerSelection);
-    console.log(playRound(playerSelection, computerSelection));
-   }
-}
-
-game();
